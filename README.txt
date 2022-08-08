@@ -1,1 +1,1 @@
-[Lucy's Portfolio] (https://xlucyluo.github.io/portfolio/)
+**<a href="https://xlucyluo.github.io/portfolio/">Lucy's Portfolio</a>**
