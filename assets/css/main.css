@@ -3268,6 +3268,26 @@ input, select, textarea {
 		padding-bottom: 24px;
 	}
 
+	.contact-me-container {
+		width: 100% !important;
+	}
+
+	.contact-me-list {
+		display: flex;
+		align-items: flex-start;
+		width: 100%;
+	}
+
+	.contact-me-list li {
+		width: auto;
+		padding: 0;
+		margin: 0 24px 0 0 !important;
+	}
+
+	.contact-me-list a {
+		white-space: nowrap;
+	}
+
 
 
 
