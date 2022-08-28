@@ -3300,5 +3300,54 @@ input, select, textarea {
 		}
 	}
 
+	.skills-list {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 5%;
+		margin-bottom: 0;
+		/* justify-content: space-between; */
+	}
+	/* .skills-list::after {
+		content: "";
+		flex: auto;
+	  } */
+
+	.skill {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		width: 12%;
+		min-width: 70px;
+	}
+
+	.skill img{
+		width: 100%;
+		aspect-ratio: 1/1;
+	}
+
+	/* @media screen and (max-width: 980px) {
+		.skill {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			width: 20%;
+		}
+	} */
+
+	@media screen and (max-width: 480px) {
+		.skill {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			width: 25%;
+		}
+	}
+
+	section#two, section#one-2{
+		margin-top: 2em;
+	}
 
 
